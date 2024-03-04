@@ -5,3 +5,4 @@
 /storage/db.json
 /var/logs
 .env
+/mails/
