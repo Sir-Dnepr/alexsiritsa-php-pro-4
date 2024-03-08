@@ -3,7 +3,7 @@ require_once __DIR__ . '/autoload.php';
 
 use App\HomeWork02\CircleGeometricFigureCalculator;
 use App\HomeWork02\SquareGeometricFigureCalculator;
-use App\HomeWork02\TrigonometricFunctionCalculatorInRadians;
+use App\HomeWork02\MagicMethods;
 use App\HomeWork02\TrigonometricFunctionCalculatorInDegrees;
 use App\HomeWork02\RhombGeometricFigureCalculator;
 
@@ -19,7 +19,7 @@ $perimeterSquareGeometricFigureCalculator = $squareGeometricFigureCalculator->ge
 $diagonalSquareGeometricFigureCalculator = $squareGeometricFigureCalculator->getDiagonal();
 
 $trigonometricFunctionCalculatorObjects = [
-    new TrigonometricFunctionCalculatorInRadians,
+    new MagicMethods,
     new TrigonometricFunctionCalculatorInDegrees
 ];
 
