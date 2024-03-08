@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 $example = $argv[1] ?? 'error';
