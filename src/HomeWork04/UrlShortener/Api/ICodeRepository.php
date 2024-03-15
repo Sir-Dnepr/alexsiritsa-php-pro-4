@@ -3,17 +3,16 @@
 namespace App\HomeWork04\UrlShortener\Api;
 
 use App\HomeWork04\UrlShortener\Api\ValueObjects\IShorterEntity;
-use App\HomeWork04\UrlShortener\ValueObjects\ShorterEntity;
 use App\HomeWork04\UrlShortener\Exceptions\EntityNotExistsException;
 
 interface ICodeRepository
 {
     /**
-     * @param ShorterEntity $urlCodeEntity
+     * @param IShorterEntity $urlCodeEntity
      *
      * @return void
      */
-    public function saveEntity(ShorterEntity $urlCodeEntity): void;
+    public function saveEntity(IShorterEntity $urlCodeEntity): void;
 
     /**
      * @param string $code
